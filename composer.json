@@ -1,5 +1,5 @@
 {
-    "name": "laravelium/sitemap",
+    "name": "netflex/sitemap",
     "description": "Laravelium Sitemap package for Laravel.",
     "homepage": "https://laravelium.com",
     "keywords": [
@@ -13,7 +13,16 @@
         "google-news"
     ],
     "license": "MIT",
+    "replace": {
+        "laravelium/sitemap": "8.*"
+    },
     "authors": [
+        {
+            "name": "Thomas Alrek",
+            "email": "thomas@apility.no",
+            "role": "Developer",
+            "homepage": "https://apility.no"
+        },
         {
             "name": "Rumen Damyanov",
             "email": "r@alfamatter.com",
@@ -22,12 +31,12 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
+        "issues": "https://github.com/netflex/sitemap/issues",
+        "source": "https://github.com/netflex/sitemap",
+        "wiki": "https://github.com/netflex/sitemap/wiki"
     },
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.4",
         "illuminate/support": "^9.0",
         "illuminate/filesystem": "^9.0"
     },
